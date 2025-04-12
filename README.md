@@ -1,4 +1,4 @@
-<html lang="bn">
+<!DOCTYPE html><html lang="bn">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +9,20 @@
       font-family: 'Noto Serif Bengali', serif;
       margin: 0;
       padding: 0;
-      background: #f2f2f2;
+      background: url('https://i.ibb.co/ZK9KHg7/islamic-bg.jpg') no-repeat center center fixed;
+      background-size: cover;
       color: #333;
     }
     header {
-      background: linear-gradient(to right, #005f2f, #008040);
+      background: rgba(0, 95, 47, 0.9);
       color: #fff;
       padding: 40px 20px;
       text-align: center;
       box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+    header img {
+      height: 100px;
+      margin-bottom: 10px;
     }
     header h1 {
       font-size: 36px;
@@ -28,7 +33,7 @@
       font-weight: 300;
     }
     nav {
-      background: #004d2d;
+      background: rgba(0, 77, 45, 0.95);
       text-align: center;
       padding: 10px 0;
     }
@@ -48,7 +53,7 @@
       padding: 30px 20px;
       max-width: 1000px;
       margin: 30px auto;
-      background: white;
+      background: rgba(255,255,255,0.9);
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       border-radius: 10px;
     }
@@ -64,7 +69,7 @@
       line-height: 1.8;
     }
     footer {
-      background: #003322;
+      background: rgba(0, 51, 34, 0.95);
       color: white;
       text-align: center;
       padding: 20px;
@@ -73,9 +78,17 @@
     ul {
       padding-left: 20px;
     }
+    .gallery-img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body><header>
+  <img src="https://chat.openai.com/mnt/data/A_logo_in_Islamic_design_represents_an_educational.png" alt="Madrasah Logo">
   <h1>হযরত আবু বকর সিদ্দিক রা. ক্বওমি মাদ্রাসা</h1>
   <p>কুরআন ও সুন্নাহভিত্তিক জ্ঞানচর্চা ও নৈতিকতার আলোকিত পথ</p>
 </header><nav>
@@ -103,7 +116,6 @@
   </ul>
 </section><section id="courses">
   <h2>পাঠ্যক্রম</h2>
-  <p>আমাদের মাদ্রাসায় নিম্নলিখিত পাঠ্যক্রম পরিচালিত হয়:</p>
   <ul>
     <li>নাজেরা ও হিফজুল কুরআন</li>
     <li>তাজবিদ ও কিরাআত</li>
@@ -115,14 +127,15 @@
 </section><section id="teachers">
   <h2>শিক্ষকবৃন্দ</h2>
   <ul>
-    <li><strong>মাওলানা ইমাম হুসাইন </strong> — প্রধান শিক্ষক, ফিকহ ও হাদীস</li>
-    <li><strong>মাওলানা আবু রায়হান</strong> — সহকারী শিক্ষক, হিফজ ও নাজেরা</li>
-    <li><strong>মুফতি আরিফুল ইসলাম</strong> —ফিকহ,হাদীস,আরবী ভাষা,কম্পিউটার </li>
-    <li><strong>মো. হাবিবুর রহমান</strong> — গণিত ও ইংরেজি শিক্ষক</li>
+    <li><strong>মাওলানা ইমাম হুসাইন </strong> — প্রধান শিক্ষক</li>
+    <li><strong>মাওলানা আবু রায়হান</strong> — সহকারী প্রধান শিক্ষক</li>
+    <li><strong>মুফতী আরিফুল ইসলাম </strong> —নাজেমে তালীমাত</li
   </ul>
 </section><section id="gallery">
   <h2>গ্যালারি</h2>
-  <p>আমাদের ছাত্রদের শিক্ষা কার্যক্রম, হিফজ প্রতিযোগিতা, বার্ষিক মিলাদ মাহফিলসহ বিভিন্ন অনুষ্ঠানের ছবি এখানে সংযুক্ত করা হবে।</p>
+  <p>নিচে আমাদের মাদ্রাসার কিছু মুহূর্ত:</p>
+  <img src="https://i.ibb.co/JndyKMQ/madrasah-1.jpg" alt="Classroom" class="gallery-img">
+  <img src="https://i.ibb.co/VWx34c9/madrasah-2.jpg" alt="Event" class="gallery-img">
 </section><section id="contact">
   <h2>যোগাযোগ</h2>
   <p><strong>ঠিকানা:</strong> হাটভাটি, নান্দাইল, ময়মনসিংহ</p>
